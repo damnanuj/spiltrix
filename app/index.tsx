@@ -5,7 +5,7 @@ import { View, Text, Button } from "react-native";
 export default function WelcomeScreen() {
   return (
     <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
-      <Text>Welcome to My App!</Text>
+      <Text>Welcome to Splitrix!</Text>
       <Link href="/(tabs)" asChild>
         <Button title="Get Started" />
       </Link>
